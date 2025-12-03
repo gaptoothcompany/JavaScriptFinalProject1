@@ -1,0 +1,46 @@
+body {
+  margin: 2%;
+  border: 1px solid black;
+  background-color: #b3b3b3;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* big display box */
+#image {
+  line-height: 650px;
+  width: 575px;
+  height: 650px;
+  border: 5px solid black;
+  margin: 0 auto 25px auto;
+  background-color: #8e68ff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 150%;
+}
+
+/* container for thumbnails */
+.thumb-row {
+  text-align: center;
+}
+
+/* thumbnails */
+.preview {
+  width: 10%;
+  margin: 0 0.5%;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+/* visible focus for keyboard users */
+.preview:focus {
+  outline: 4px solid yellow;
+  outline-offset: 2px;
+}
