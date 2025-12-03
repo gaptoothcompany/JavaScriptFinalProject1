@@ -9,7 +9,6 @@ h1 {
   text-align: center;
 }
 
-/* big display box */
 #image {
   line-height: 650px;
   width: 575px;
@@ -26,12 +25,10 @@ h1 {
   font-size: 150%;
 }
 
-/* container for thumbnails */
 .thumb-row {
   text-align: center;
 }
 
-/* thumbnails */
 .preview {
   width: 10%;
   margin: 0 0.5%;
@@ -39,7 +36,6 @@ h1 {
   box-sizing: border-box;
 }
 
-/* visible focus for keyboard users */
 .preview:focus {
   outline: 4px solid yellow;
   outline-offset: 2px;
